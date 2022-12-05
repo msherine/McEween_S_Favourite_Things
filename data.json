@@ -1,0 +1,23 @@
+{
+    "Model_1" : {
+        "model_img": "3_door_mini.jpg",
+        "model_type":"2023 MINI 3 Door",
+        "model_name": "COOPER",
+        "model_price": "$31,090", 
+        "model_hp":"134 hp"
+    },
+    "Model_2" : {
+        "model_img": "3_door_mini.jpg",
+        "model_type":"2023 MINI 3 Door",
+        "model_name": "COOPER",
+        "model_price": "$31,090", 
+        "model_hp":"134 hp"
+    },
+    "Model_3" : {
+        "model_img": "3_door_mini.jpg",
+        "model_type":"2023 MINI 3 Door",
+        "model_name": "COOPER",
+        "model_price": "$31,090", 
+        "model_hp":"134 hp"
+    }
+}
