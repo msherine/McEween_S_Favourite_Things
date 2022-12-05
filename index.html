@@ -37,11 +37,13 @@
 
     <!-- display carThumbs using vue -->
     <main id="app">
+
         <carlb @closelb="this.showLightBox=false" v-if="showLightBox" :model="lightboxData"></carlb>
         <nav id="car_img">
             <ul id="model-img" class="work-piece">
                 <carthumb  @loadlb="loadLightBox" v-for="model in carData" :model="model"></carthumb>
             </ul>
+
         </nav>
     </main>
 
@@ -57,6 +59,7 @@
     <footer class="footer_section">
         &#169; 2022 MINI Canada. All rights reserved.
     </footer>
+
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/main.js" type="module" defer></script>
