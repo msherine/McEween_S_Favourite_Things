@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini App</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="site">
+
+    <h1 hidden>Mini Cooper Website</h1>
+
+    <!-- navigation -->
+    <header>
+        <img src="./images/logo.png" alt="mini logo">
+
+        <section class="main_nav">
+            <a href="#">3 DOOR</a>
+            <a href="#">5 DOOR</a>
+            <a href="#">CONVERTIBLE</a>
+            <a href="#">COUNTRYMAN</a>
+        </section>
+
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+
+    <!-- display carThumbs using vue -->
+    <main id="app">
+        <nav id="car_img">
+            <div class="work-piece">
+                <projthumb v-for="work in portData" :work="work"></projthumb>
+            </div>
+        </nav>
+    </main>
+
+    <!-- video loop -->
+    <section class="video_container">
+        <video class="mini_video" muted autoplay loop playsinline>
+            <source type="video/mp4" src="https://86bd04aee645f41c2005-510904abdc95bfe9a6b152d3edc0036b.ssl.cf5.rackcdn.com/Public/img/2016-739165/content/electric/fast-facts.mp4?v=NwY8tz2G0hI8N6iLlo2v8m4NZBYEb6Dj3jJYlFRgPBM1">
+        </video>
+    </section>
+
+    
+
+
+
+
+    <!-- footer -->
+
+    <footer class="footer_section">
+        &#169; 2022 MINI Canada. All rights reserved.
+    </footer>
+</body>
+</html>
