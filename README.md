@@ -1,1 +1,1 @@
-# McEween_S_Favourite_Things
+# McEween_S_Mini_App
