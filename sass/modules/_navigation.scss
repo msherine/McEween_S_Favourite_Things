@@ -1,0 +1,18 @@
+header {
+ background: $color_one;
+ padding: 1.25rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ box-shadow: 0 0px 10px 0 rgba(0, 0, 0,0.3);
+}
+
+nav.navigation {
+   display: none; 
+}
+
+img.close {
+   display: none; 
+}
+
+

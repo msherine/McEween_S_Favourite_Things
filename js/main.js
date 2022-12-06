@@ -4,10 +4,7 @@ import lightBox from './modules/lightbox.js';
 
 (() => {
     console.log("Welcome to Mini App ");
-
-    let navMenu = document.querySelector(".main_nav");
-    // burgerMenu= document.querySelector(".hamburger"),
-    // openMenu=false;
+    
     const { createApp }=Vue;
 
     createApp({
@@ -43,22 +40,10 @@ import lightBox from './modules/lightbox.js';
 
     }).mount('#app')
 
-
-    //Hamburger Menu --Slide in
-
-    // function hamMenu(){
-    //     if(!openMenu){
-       
-    //         navMenu.classList.add("menu-active");
-    //         openMenu=true;
-    //         console.log("Menu Displayed");
-    //     }
-
-    //     else{
-    //         navMenu.classList.remove("menu-active");
-    //         openMenu=false;
-    //     }
-    // }
-    // burgerMenu.addEventListener("click", hamMenu);
+    function showMenu() {
+        document.querySelector('.navigation').classList.toggle('active');
+        document.querySelector('.menu').classList.toggle('hide');
+        document.querySelector('.close').classList.toggle('show');
+    }
 
 })();
