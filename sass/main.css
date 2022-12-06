@@ -1,1 +1,23 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #ffffff;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+nav.navigation {
+  display: none;
+}
+
+img.close {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
