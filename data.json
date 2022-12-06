@@ -6,18 +6,28 @@
         "model_price": "$31,090", 
         "model_hp":"134 hp"
     },
+
     "Model_2" : {
-        "model_img": "3_door_mini.jpg",
-        "model_type":"2023 MINI 3 Door",
+        "model_img": "5_door_mini.jpg",
+        "model_type":"2023 MINI 5 Door",
         "model_name": "COOPER",
-        "model_price": "$31,090", 
+        "model_price": "$32,190", 
         "model_hp":"134 hp"
     },
+
     "Model_3" : {
-        "model_img": "3_door_mini.jpg",
-        "model_type":"2023 MINI 3 Door",
+        "model_img": "mini_convertible.jpg",
+        "model_type":"2023 MINI CONVERTIBLE",
         "model_name": "COOPER",
-        "model_price": "$31,090", 
+        "model_price": "$37,990", 
+        "model_hp":"134 hp"
+    },
+
+    "Model_4" : {
+        "model_img": "mini_countryman.jpg",
+        "model_type":"2023 MINI COUNTRYMAN ALL 4",
+        "model_name": "COOPER",
+        "model_price": "$37,990", 
         "model_hp":"134 hp"
     }
 }
