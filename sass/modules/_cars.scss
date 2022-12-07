@@ -1,0 +1,59 @@
+#car_nav {
+    text-align: center;
+}
+
+.cars {
+    list-style-type: none;
+}
+
+.cars li {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 220px;
+    margin: 10px 8px;
+
+    text-align: left;
+    overflow: hidden;
+}
+
+.cars li h3{
+    padding: 1rem 0.875rem; 
+    position: relative; 
+    z-index: 50;
+}
+
+.cars li:hover .black_dash {
+    width: 80%; 
+}
+
+.black_dash {
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    border-radius: 1px;
+    position: absolute;
+    top: 160px;
+    transition: width 1s ease;  
+}
+
+.cars li h4{
+    padding: 0rem 0.875rem; 
+    position: relative; 
+    z-index: 50;
+}
+
+.cars li p{ 
+    padding: 0rem 0.875rem;
+    position: relative; 
+    z-index: 50;
+} 
+
+.cars li a {
+    text-decoration: none;
+}
+
+.cars li img {
+    width: 14.375rem;
+}
+

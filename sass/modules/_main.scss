@@ -4,3 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    width: 100%;
+    border: 2px solid purple;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+.footer_section {
+    position: sticky;
+    top: 100%;
+    height: 100px;
+    background-color: $color_two;
+}

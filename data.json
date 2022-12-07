@@ -1,33 +1,53 @@
 {
     "Model_1" : {
         "model_img": "3_door_mini.jpg",
+        "model_pic": "3D_mini_red.png",
         "model_type":"2023 MINI 3 Door",
         "model_name": "COOPER",
-        "model_price": "$31,090", 
-        "model_hp":"134 hp"
+        "model_color": "Red",
+        "model_price": "$34,056",
+        "model_dp": "$515.73",
+        "model_fuel": "7.5 (L/100km)", 
+        "model_hp":"134 hp",
+        "model_speed": "210 km/hr"
     },
 
     "Model_2" : {
         "model_img": "5_door_mini.jpg",
+        "model_pic": "5D_mini_white.png",
         "model_type":"2023 MINI 5 Door",
         "model_name": "COOPER",
-        "model_price": "$32,190", 
-        "model_hp":"134 hp"
+        "model_color": "White",
+        "model_price": "$35,156",
+        "model_dp": "$532.12",
+        "model_fuel": "7.5 (L/100km)", 
+        "model_hp":"134 hp",
+        "model_speed": "207 km/hr"
     },
 
     "Model_3" : {
         "model_img": "mini_convertible.jpg",
+        "model_pic": "convertible_yellow.png",
         "model_type":"2023 MINI CONVERTIBLE",
         "model_name": "COOPER",
-        "model_price": "$37,990", 
-        "model_hp":"134 hp"
+        "model_color": "Yellow",
+        "model_price": "$40,956",
+        "model_dp": "$590.59",
+        "model_fuel": "7.5 (L/100km)", 
+        "model_hp":"134 hp",
+        "model_speed": "205 km/hr"
     },
 
     "Model_4" : {
         "model_img": "mini_countryman.jpg",
+        "model_pic": "countryman_blue.png",
         "model_type":"2023 MINI COUNTRYMAN ALL 4",
         "model_name": "COOPER",
-        "model_price": "$37,990", 
-        "model_hp":"134 hp"
+        "model_color": "Blue",
+        "model_price": "$40,956",
+        "model_dp": "$632.53",
+        "model_fuel": "8.5 (L/100km)", 
+        "model_hp":"134 hp",
+        "model_speed": "200 km/hr"
     }
 }
