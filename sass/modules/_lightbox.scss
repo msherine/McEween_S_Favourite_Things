@@ -3,7 +3,7 @@
     height: 100%;
     position: absolute;
     top: 800px;
-    background-color: #fff;
+    background-color: rgb(204, 204, 204);
     z-index: 5000;
 }
 
@@ -18,18 +18,29 @@
 .lightBox_close:hover { 
     opacity: 0.7; 
     transform: scale(-1, 1); 
-  }
+}
 
-  .lightBox article { 
+.lightBox article { 
     padding-top: 50px;
-  }
+}
 
-.model_data h2, h3, h4, p {
-   text-align: left; 
+.model_data h2 {
+    font-weight: bolder;
+    font-size: 1.75rem;
+}
+
+.model_data h4 {
+    font-weight: bolder;
+    font-size: 1.25rem;
+    text-decoration: underline;
 }
 
 .model_data span {
     font-weight: bold;
+}
+
+.model_data p {
+    font-weight: lighter;
 }
 
 .model_data {
