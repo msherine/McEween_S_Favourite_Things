@@ -39,6 +39,12 @@
         <h3>Let the fun begin..</h3>
     </div>
 
+    <!-- Content section -->
+    <div class="subtitle">
+        <h2>BUILD YOUR MINI.</h2>
+        <h4>SELECT A MODEL TO START</h4>
+    </div>
+
     <!-- display carThumbs using vue -->
     <main id="app">
         <nav id="car_nav">
@@ -50,6 +56,8 @@
         <carlb @closelb="this.showLightBox=false" v-if="showLightBox" :model="lightboxData"></carlb>
         <!-- end lightbox -->
     </main>
+
+    <!-- Features -->
 
     <!-- video loop -->
     <section class="video_container">

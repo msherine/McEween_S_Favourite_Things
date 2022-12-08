@@ -1,8 +1,8 @@
 .lightBox {
     width: 100%;
-    height: 100%;
+    height: 90%;
     position: absolute;
-    top: 800px;
+    // top: 800px;
     background-color: rgb(204, 204, 204);
     z-index: 5000;
 }
@@ -57,4 +57,13 @@ article {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.model_btn {
+    border: 2.5px solid black;
+    background-color: black;
+    padding: 0.5rem 1.5rem;
+    transition: all .1s ease-in;
+    cursor: pointer;
+    color: white;
 }
