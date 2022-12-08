@@ -1,7 +1,7 @@
 # McEween_S_Mini_App
 
 
-A re-design of the mini.ca website and functionalities added using AJAX Fetch API, SASS and PHP.
+A re-design of the www.mini.ca website and functionalities added using AJAX Fetch API, SASS and PHP.
 Click on the car models to navigate for more detailed features about the cars1
 
 
