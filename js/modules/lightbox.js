@@ -8,9 +8,11 @@ export default{
     `
     <section class="lightBox">
    
-    <img @click="closeLB" src="images/close_icon.svg">
+    <img @click="closeLB" src="images/close_icon.svg" class = "lightBox_close">
     <article>
-    <img :src='"images/" + model.model_pic' alt="car thumb image">
+    <div>
+        <img :src='"images/" + model.model_pic' alt="car thumb image">
+    </div>
 
     <div class="model_data">
     <h2> {{ model.model_type}} </h2>
