@@ -1,17 +1,19 @@
 #car_nav {
     text-align: center;
+    height: 300px;
 }
 
 .cars {
     list-style-type: none;
+    margin-top: 25px;
 }
 
 .cars li {
     display: inline-block;
     position: relative;
     cursor: pointer;
-    height: 220px;
-    margin: 10px 8px;
+    height: 250px;
+    margin: 10px 10px;
 
     text-align: left;
     overflow: hidden;
@@ -24,23 +26,26 @@
 }
 
 .cars li:hover .black_dash {
-    width: 80%; 
+    width: 90%;
+
 }
 
 .black_dash {
-    height: 2px;
+    height: 4px;
     width: 0%;
     background-color: black;
-    border-radius: 1px;
+    border-radius: 0px;
     position: absolute;
     top: 160px;
-    transition: width 1s ease;  
+    transition: width 1s ease;
+    margin-left: 14px;  
 }
 
 .cars li h4{
     padding: 0rem 0.875rem; 
     position: relative; 
     z-index: 50;
+    margin-top: 8px;
 }
 
 .cars li p{ 

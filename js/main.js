@@ -10,7 +10,8 @@ import lightBox from './modules/lightbox.js';
     createApp({
 
         created(){
-            fetch('./data.json')
+            fetch('./scripts/json.php')
+            // fetch('./data.json')
             .then(res => res.json())
             .then(data => this.carData = data)
             .catch(error => console.error(error));

@@ -5,10 +5,48 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
-  height: 100vh;
   width: 100%;
-  border: 2px solid purple;
+}
+
+.header_img img {
+  width: 100%;
+}
+
+.header_img h2 {
+  position: absolute;
+  top: 50%;
+  left: 24%;
+  color: white;
+  text-shadow: 4px 3px 6px rgba(6, 6, 6, 0.338);
+  transform: translate(-30%, -30%);
+  text-align: left;
+  font-size: 6rem;
+  font-weight: lighter;
+}
+
+.header_img h3 {
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  color: white;
+  text-shadow: 4px 3px 6px rgba(6, 6, 6, 0.338);
+  transform: translate(-30%, -30%);
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+.video_container {
+  width: 100%;
+}
+
+.mini_video {
+  width: 100%;
 }
 
 footer {
@@ -56,18 +94,20 @@ nav ul li a {
 
 #car_nav {
   text-align: center;
+  height: 300px;
 }
 
 .cars {
   list-style-type: none;
+  margin-top: 25px;
 }
 
 .cars li {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  height: 220px;
-  margin: 10px 8px;
+  height: 250px;
+  margin: 10px 10px;
   text-align: left;
   overflow: hidden;
 }
@@ -79,23 +119,25 @@ nav ul li a {
 }
 
 .cars li:hover .black_dash {
-  width: 80%;
+  width: 90%;
 }
 
 .black_dash {
-  height: 2px;
+  height: 4px;
   width: 0%;
   background-color: black;
-  border-radius: 1px;
+  border-radius: 0px;
   position: absolute;
   top: 160px;
   transition: width 1s ease;
+  margin-left: 14px;
 }
 
 .cars li h4 {
   padding: 0rem 0.875rem;
   position: relative;
   z-index: 50;
+  margin-top: 8px;
 }
 
 .cars li p {
