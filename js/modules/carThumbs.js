@@ -10,7 +10,7 @@ export default {
 
     template:
     `
-    <li @click= "loadlightboxdata">
+    <li @click= "loadlightboxdata" >
 
         <img :src='"images/" + model.model_img' alt="model Thumb">
 

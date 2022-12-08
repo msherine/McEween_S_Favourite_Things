@@ -23,6 +23,7 @@ export default{
     <p><span>Top-speed :</span> {{ model.model_speed}} </p>
     <p><span>Fuel consumption :</span> {{ model.model_fuel}} </p>
     <p><span>Output :</span> {{ model.model_hp}} </p>
+    <button class="model_btn">BUY</button>
     </div>
 
     </article>

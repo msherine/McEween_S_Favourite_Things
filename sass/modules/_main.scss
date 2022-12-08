@@ -40,12 +40,33 @@ body {
     font-weight: lighter;
 }
 
+.subtitle {
+    // border: 2px solid purple;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.subtitle h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.subtitle h4 {
+    font-weight: light;
+}
+
 .video_container {
     width: 100%;
 }
 
 .mini_video {
     width: 100%;
+    filter: brightness(60%);
 }
 
 footer {
