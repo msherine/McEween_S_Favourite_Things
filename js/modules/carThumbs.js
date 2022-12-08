@@ -10,15 +10,16 @@ export default {
 
     template:
     `
-    <div @click= "loadlightboxdata" class="model_item">
+    <li @click= "loadlightboxdata">
 
-    <img :src='"images/" + model.model_img' alt="model Thumb">
+        <img :src='"images/" + model.model_img' alt="model Thumb">
 
-    <h3> {{ model.model_type }} </h3>
-    <h4> {{ model.model_name }} </h4>
-    <p> {{ model.model_price }} </p>
+        <h3> {{ model.model_type }} </h3>
+        <div class="black_dash"></div>
+        <h4> {{ model.model_name }} </h4>
+        <p> Starting from : {{ model.model_price }} </p>
     
-    </div>
+    </li>
     
     `,
 

@@ -22,27 +22,33 @@
             <a href="#"><img src="./images/logo.png" alt="mini logo"></a>
         </div>
         <nav class="navigation">
-            <a href="#">3 DOOR</a>
-            <a href="#">5 DOOR</a>
-            <a href="#">CONVERTIBLE</a>
-            <a href="#">COUNTRYMAN</a>
+            <ul>
+                <li><a href="#">3 DOOR</a></li>
+                <li><a href="#">5 DOOR</a></li>
+                <li><a href="#">CONVERTIBLE</a></li>
+                <li><a href="#">COUNTRYMAN</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
         </nav>
-        <div class="toggle_box">
-            <a onclick="showMenu()" href="#"><img class="menu" src="./images/menu_icon.svg" alt="menu"><img class="close" src="./images/close_icon.svg" alt="close"></a>
-        </div>
     </header>
 
+    <!-- hero image -->
+    <div class="header_img">
+        <img src="/images/mini_header.jpg" alt="mini header">
+        <h2>Welcome to MINI!</h2>
+        <h3>Let the fun begin..</h3>
+    </div>
 
     <!-- display carThumbs using vue -->
     <main id="app">
-
-        <carlb @closelb="this.showLightBox=false" v-if="showLightBox" :model="lightboxData"></carlb>
-        <nav id="car_img">
-            <ul id="model-img" class="work-piece">
+        <nav id="car_nav">
+            <ul id="model-img" class="cars">
                 <carthumb  @loadlb="loadLightBox" v-for="model in carData" :model="model"></carthumb>
             </ul>
-
         </nav>
+        <!-- custom lightbox component -->
+        <carlb @closelb="this.showLightBox=false" v-if="showLightBox" :model="lightboxData"></carlb>
+        <!-- end lightbox -->
     </main>
 
     <!-- video loop -->

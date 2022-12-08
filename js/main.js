@@ -10,7 +10,8 @@ import lightBox from './modules/lightbox.js';
     createApp({
 
         created(){
-            fetch('./data.json')
+            fetch('./scripts/json.php')
+            // fetch('./data.json')
             .then(res => res.json())
             .then(data => this.carData = data)
             .catch(error => console.error(error));
@@ -39,11 +40,5 @@ import lightBox from './modules/lightbox.js';
 
 
     }).mount('#app')
-
-    function showMenu() {
-        document.querySelector('.navigation').classList.toggle('active');
-        document.querySelector('.menu').classList.toggle('hide');
-        document.querySelector('.close').classList.toggle('show');
-    }
 
 })();

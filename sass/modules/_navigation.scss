@@ -7,12 +7,22 @@ header {
  box-shadow: 0 0px 10px 0 rgba(0, 0, 0,0.3);
 }
 
-nav.navigation {
-   display: none; 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-img.close {
-   display: none; 
+nav ul li {
+  display: inline-block;
 }
 
-
+nav ul li a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.875rem 1rem;
+}
